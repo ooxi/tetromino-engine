@@ -18,8 +18,12 @@ target_sources(
 		"${CMAKE_CURRENT_LIST_DIR}/src/event/ShiftLeftEvent.c++"
 		"${CMAKE_CURRENT_LIST_DIR}/src/event/ShiftRightEvent.c++"
 		"${CMAKE_CURRENT_LIST_DIR}/src/event/SoftDropEvent.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/event/TickEvent.c++"
 
 		"${CMAKE_CURRENT_LIST_DIR}/src/Event.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/Grid.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/Tetromino.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/TetrominoCell.c++"
 		"${CMAKE_CURRENT_LIST_DIR}/src/TetrominoEngine.c++"
 )
 
