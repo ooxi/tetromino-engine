@@ -1,4 +1,7 @@
 # tetromino-engine / tetromino-engine
+#
+# Copyright 2022, ooxi and the tetromino-engine contributors
+# SPDX-License-Identifier: Zlib
 project("tetromino-engine-tetromino-engine" CXX)
 add_library("${PROJECT_NAME}" STATIC)
 add_library("tetromino-engine::tetromino-engine" ALIAS "${PROJECT_NAME}")

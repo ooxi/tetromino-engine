@@ -1,4 +1,7 @@
 # tetromino-engine / c++20
+#
+# Copyright 2022, ooxi and the tetromino-engine contributors
+# SPDX-License-Identifier: Zlib
 project("tetromino-engine-c++20" CXX)
 add_library("${PROJECT_NAME}" INTERFACE)
 add_library("tetromino-engine::c++20" ALIAS "${PROJECT_NAME}")

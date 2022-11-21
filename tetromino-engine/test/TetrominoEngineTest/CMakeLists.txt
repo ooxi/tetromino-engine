@@ -1,4 +1,7 @@
 # tetromino-engine / tetromino-engine / test / TetrominoEngineTest
+#
+# Copyright 2022, ooxi and the tetromino-engine contributors
+# SPDX-License-Identifier: Zlib
 project("${PROJECT_NAME}-TetrominoEngineTest" CXX)
 add_executable("${PROJECT_NAME}")
 
