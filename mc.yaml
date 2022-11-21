@@ -1,0 +1,14 @@
+---
+base: fedora:36
+install:
+
+ # Compiler
+ - gcc
+ - gcc-c++
+
+ # Build system
+ - cmake
+ - make
+ - ninja-build
+ - which
+---
