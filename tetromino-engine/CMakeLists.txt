@@ -10,6 +10,16 @@ add_library("tetromino-engine::tetromino-engine" ALIAS "${PROJECT_NAME}")
 target_sources(
 	"${PROJECT_NAME}"
 	PRIVATE
+		"${CMAKE_CURRENT_LIST_DIR}/src/event/HardDropEvent.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/event/HoldEvent.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/event/PauseEvent.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/event/RotateClockwiseEvent.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/event/RotateCounterClockwiseEvent.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/event/ShiftLeftEvent.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/event/ShiftRightEvent.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/event/SoftDropEvent.c++"
+
+		"${CMAKE_CURRENT_LIST_DIR}/src/Event.c++"
 		"${CMAKE_CURRENT_LIST_DIR}/src/TetrominoEngine.c++"
 )
 
