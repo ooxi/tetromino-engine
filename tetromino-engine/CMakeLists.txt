@@ -20,6 +20,17 @@ target_sources(
 		"${CMAKE_CURRENT_LIST_DIR}/src/event/SoftDropEvent.c++"
 		"${CMAKE_CURRENT_LIST_DIR}/src/event/TickEvent.c++"
 
+		"${CMAKE_CURRENT_LIST_DIR}/src/tetromino/Cell.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/tetromino/CellFree.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/tetromino/CellOccupied.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/tetromino/I.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/tetromino/J.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/tetromino/L.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/tetromino/O.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/tetromino/S.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/tetromino/T.c++"
+		"${CMAKE_CURRENT_LIST_DIR}/src/tetromino/Z.c++"
+
 		"${CMAKE_CURRENT_LIST_DIR}/src/Event.c++"
 		"${CMAKE_CURRENT_LIST_DIR}/src/Grid.c++"
 		"${CMAKE_CURRENT_LIST_DIR}/src/Tetromino.c++"
